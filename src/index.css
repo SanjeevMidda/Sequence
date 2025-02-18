@@ -1,0 +1,45 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+* {
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+.square {
+  width: 220px;
+  height: 220px;
+  /* border: 1px solid black; */
+  position: absolute;
+  border-radius: 50%;
+}
+
+.squareOne {
+  background: linear-gradient(purple, blue);
+}
+
+.squareTwo {
+  background: linear-gradient(pink, grey);
+}
+
+.squareThree {
+  background: linear-gradient(yellow, orange);
+}
+
+h3 {
+  font-size: 200px;
+}
